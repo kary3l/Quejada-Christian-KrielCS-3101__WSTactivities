@@ -3,52 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Layout</title>
+    <title>Vision Board</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="dashboard">
-        <div class="card funding">
-            <h3>First Round of Funding</h3>
-            <div class="progress">
-                <p>75% Complete</p>
+
+<div class="vision-board">
+    <h1>Karyel's Vision Board</h1>
+    
+    <!-- First row with 5 small pictures -->
+    <div class="image-grid">
+        <div><img src="assets/wave.jpg" alt="Placeholder Image"></div>
+        <div><img src="assets/plane.jpg" alt="Placeholder Image"></div>
+        <div><img src="assets/shirt.jpg" alt="Placeholder Image"></div>
+        <div><img src="assets/food.jpg" alt="Placeholder Image"></div>
+        <div><img src="assets/car.jpg" alt="Placeholder Image"></div>
+    </div>
+    
+    <!-- Second row with 5 goals and 2 other pictures -->
+    <div class="content-grid">
+        <div class="goals">
+            <h3>5 Goals</h3>
+            <ul>
+                <li>Improve sleep schedule</li>
+                <li>Reduce screentime</li>
+                <li>Learn how to cook</li>
+                <li>Read 20 books</li>
+                <li>Communicate and express myself</li>
+            </ul>
+        </div>
+        <div class="large-image">
+            <img src="assets/qoute.png" alt="Placeholder Image">
+        </div>
+        <div class="large-image music-player">
+            <h2>Music Player</h2>
+            <div class="circle">
+                <img src="assets/Troye.jpg" alt="Album Cover" class="circle-image"> 
             </div>
-            <p>2.5K Contributions</p>
-        </div>
-        
-        <div class="card project-views">
-            <h3>4.875</h3>
-            <p>Project Views last year</p>
-        </div>
-        
-        <div class="card new-users">
-            <h3>57K</h3>
-            <p>New Users <span>+10%</span></p>
-        </div>
-
-        <div class="card team">
-            <h3>Team of passionate designers and developers</h3>
-            <p>Daily New Clients: 54 <span>+40%</span></p>
-        </div>
-
-        <div class="card agency">
-            <h3>Smart Digital Agency For Your Business</h3>
-        </div>
-
-        <div class="card font">
-            <h3>Font</h3>
-            <p>SK Modernist</p>
-        </div>
-
-        <div class="card engagement">
-            <h3>19.46%</h3>
-            <p>Engagement Rate <span>+102.4%</span></p>
-        </div>
-
-        <div class="card future">
-            <h3>We Build Future of Design Industry</h3>
-            <p>Crafting Meaningful UX/UI Design</p>
+            <div class="player-controls">
+                <button class="play">▶</button>
+                <button class="pause">⏸️</button>
+                <button class="stop">⏹️</button>
+            </div>
+            <div class="track-info">
+                <span>Track Title</span>
+                <span>Artist Name</span>
+            </div>
         </div>
     </div>
+</div>
+
 </body>
 </html>
